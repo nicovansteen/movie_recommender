@@ -1,0 +1,36 @@
+# ------------------------------------------------------------------
+# 1. DATA AND MODEL FILES
+# ------------------------------------------------------------------
+# Ignore the entire 'raw' data directory (raw data is usually too large)
+data/raw/
+
+# Ignore large cached joblib files (if they are outputs, not inputs)
+# Note: You should be using LFS for df_final_matrix.joblib, but 
+# if you decide to ignore it instead, add it here:
+# data/cleaned/joblib_dataframes/*.joblib
+
+
+# ------------------------------------------------------------------
+# 2. ENVIRONMENT AND CONFIG FILES
+# ------------------------------------------------------------------
+# Ignore the virtual environment directory
+venv/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore the environment configuration file (which contains keys/secrets)
+# This ignores the file named '.env', not a directory.
+.env
+
+# Ignore all user-specific IDE files (e.g., VS Code cache/settings)
+.vscode/
+
+# ------------------------------------------------------------------
+# 3. LOGS AND CACHE
+# ------------------------------------------------------------------
+*.log
+*.sqlite
+
+".env" 
+".env" 

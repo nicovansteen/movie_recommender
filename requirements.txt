@@ -1,0 +1,11 @@
+pandas
+numpy<2
+cython>=0.29
+psycopg2-binary
+Flask==2.3.2
+streamlit==1.44.0
+joblib
+requests
+scikit-learn
+scikit-surprise
+
